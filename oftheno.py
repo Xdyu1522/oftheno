@@ -3,6 +3,7 @@ from tkinter import messagebox
 from tkinter import font
 from tkinter.messagebox import *
 import sys, time, random
+import os
 root = Tk()
 onlyb = BooleanVar()
 nums = IntVar()
@@ -95,7 +96,16 @@ def wtq():
         sys.exit()
     else:...
 
-root.iconbitmap('oftheno.ico')
+def resource_path(relative_path):
+    if getattr(sys, 'frozen', False): #是否Bundle Resource
+        base_path = sys._MEIPASS
+    else:
+        base_path = os.path.abspath(".")
+    return os.path.join(base_path, relative_path)
+
+# print(resource_path(os.path.join('.', 'oftheno.ico')))
+
+root.iconbitmap(resource_path(os.path.join('.', 'oftheno.ico')))
 root.geometry('410x200')
 root.title('抽号器')
 info_text = StringVar()
