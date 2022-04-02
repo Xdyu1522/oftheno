@@ -1,5 +1,11 @@
 抽号器
 ===
+
+![](https://img.shields.io/badge/Python-3.9.7-plastic?style=plastic&logo=python&color=blue&link=https://python.org)
+![](https://img.shields.io/badge/Git-2.35.1-plastic?style=plastic&logo=git&color=&link=https://git-scm.com/)
+![](https://img.shields.io/badge/Release-1.0-plastic?style=plastic&logo=python&color=success&link=https://python.org)
+![](https://img.shields.io/badge/Platfrom-windows-plastic?style=plastic&logo=windows&color=lightgrey)
+![](https://img.shields.io/badge/Github-@Xie1522-plastic?style=plastic&logo=github&color=orange&link=https://www.github.com/Xie1522)
 ## 这是一个用python编写的抽号器
 
 ### 主要使用：
